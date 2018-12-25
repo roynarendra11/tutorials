@@ -5,6 +5,7 @@
 ## By Narendra Roy
 
 **Part 1**
+Anything after 3 ` and {r} is R code scope and the scope ends with 3 `
 ```{r eval=FALSE}
 
 data(cars)
@@ -13,6 +14,7 @@ summary(cars)
 plot(cars)
 
 ```
+For in-line evaluation of R code: `r rcode `
 
 http://example.com
 
@@ -23,6 +25,7 @@ http://example.com
     + Item 2a
     + Item 2b
     
+
 ```{r eval=FALSE}    
 library(caret)
 ```
