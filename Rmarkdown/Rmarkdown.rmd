@@ -5,7 +5,9 @@
 ## By Narendra Roy
 
 **Part 1**
-Anything after 3 ` and {r} is R code scope and the scope ends with 3 `
+
+<!-- Anything after 3 ` and {r} is R code scope and the scope ends with 3 ` -->
+
 ```{r eval=FALSE}
 
 data(cars)
@@ -14,18 +16,78 @@ summary(cars)
 plot(cars)
 
 ```
-For in-line evaluation of R code: `r rcode `
+
+<!-- This is comment -->
+<!-- For in-line evaluation of R code: -->
+There were `r nrow(cars)` cars studied
 
 http://example.com
 
 [linked phrase](http://example.com)
 
+__Unordered list__
 * Item
 * Item 2
     + Item 2a
     + Item 2b
+   
+__Ordered List__
+1. Item 1
+2. Item 2
+3. Item 3
+    + Item 3a
+    + Item 3b
     
+eval is false therefore, you won't see any warning message or any output
 
 ```{r eval=FALSE}    
 library(caret)
 ```
+
+A friend once said:
+
+> It's always better to give 
+> than to receive.
+
+
+Plain code blocks are displayed in a fixed-width font but not evaulated
+```
+This text is displayed verbatim / preformatted
+```
+
+__Links__
+A [linked phrase][id]. 
+
+At the bottom of the document:
+
+[id]: http://example.com/ "Title"
+
+__Miscellaneous__
+
+superscript^2^
+
+subscript~2~
+
+~~strikethrough~~
+
+__Images__
+
+![alt text][id] At the bottom of the document:
+
+[id]: image.jpg "Title"
+
+
+__Emphasis__
+
+
+*italic*   **bold**
+
+_italic_   __bold__
+
+__Headers__
+
+# Header 1
+
+## Header 2
+
+### Header 3
