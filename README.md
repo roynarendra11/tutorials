@@ -1,2 +1,2 @@
 # tutorials
-Repo for learned stuffs
+Repo for revision
