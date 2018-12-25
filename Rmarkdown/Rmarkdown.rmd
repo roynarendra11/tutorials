@@ -1,1 +1,28 @@
 # Rmarkdown Cheatsheet
+
+
+# Analysis of the cars dataset in R
+## By Narendra Roy
+
+**Part 1**
+```{r eval=FALSE}
+
+data(cars)
+str(cars)
+summary(cars)
+plot(cars)
+
+```
+
+http://example.com
+
+[linked phrase](http://example.com)
+
+* Item
+* Item 2
+    + Item 2a
+    + Item 2b
+    
+```{r eval=FALSE}    
+library(caret)
+```
